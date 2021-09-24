@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ElectricStove_Auto.label>自动电力炉灶</ElectricStove_Auto.label>
+  <ElectricStove_Auto.description>自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。</ElectricStove_Auto.description>
+  <ElectricStove_Auto_Blueprint.label>自动电力炉灶 (blueprint)</ElectricStove_Auto_Blueprint.label>
+  <ElectricStove_Auto_Blueprint_Install.label>自动电力炉灶 (blueprint)</ElectricStove_Auto_Blueprint_Install.label>
+  <ElectricStove_Auto_Frame.label>自动电力炉灶 (building)</ElectricStove_Auto_Frame.label>
+  <ElectricStove_Auto_Frame.description>自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。</ElectricStove_Auto_Frame.description>
+  <CIWSMedicalBed.label>纳米修复舱</CIWSMedicalBed.label>
+  <CIWSMedicalBed.description>近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。</CIWSMedicalBed.description>
+  <CIWSMedicalBed_Blueprint.label>纳米修复舱 (blueprint)</CIWSMedicalBed_Blueprint.label>
+  <CIWSMedicalBed_Blueprint_Install.label>纳米修复舱 (blueprint)</CIWSMedicalBed_Blueprint_Install.label>
+  <CIWSMedicalBed_Frame.label>纳米修复舱 (building)</CIWSMedicalBed_Frame.label>
+  <CIWSMedicalBed_Frame.description>近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。</CIWSMedicalBed_Frame.description>
+</LanguageData>

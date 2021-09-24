@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- </ThingDef> -->
+  <CIWSMirror.label>落地鏡</CIWSMirror.label>
+  <CIWSMirror.description>一個巨大的鏡子，可以練習口才。感謝lolidrop的貼圖支持。</CIWSMirror.description>
+  <CIWSMirror_Blueprint.label>落地鏡 (藍圖)</CIWSMirror_Blueprint.label>
+  <CIWSMirror_Blueprint_Install.label>落地鏡 (藍圖)</CIWSMirror_Blueprint_Install.label>
+  <CIWSMirror_Frame.label>落地鏡 (建造中)</CIWSMirror_Frame.label>
+  <CIWSMirror_Frame.description>一個巨大的鏡子，可以練習口才。感謝lolidrop的貼圖支持。</CIWSMirror_Frame.description>
+</LanguageData>

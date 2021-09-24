@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsCookCIWS</defName>
+    <label>烹饪食物</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ElectricStove_Auto</li>
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>烹饪于</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsKouCaiLianxi</defName>
+    <label>口才练习</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Warden</workType>
+    <priorityInType>40</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CIWSMirror</li>
+    </fixedBillGiverDefs>
+    <verb>cremate</verb>
+    <gerund>练习于</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!--  	<WorkGiverDef>
+		<defName>CIWSDrill</defName>
+		<label>钻探深钻井</label>
+		<giverClass>CIWSMIS.CIWSWorkGiver_DeepDrill</giverClass>
+		<workType>Mining</workType>
+		<priorityInType>50</priorityInType>
+		<verb>drill</verb>
+		<gerund>drilling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef> -->
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apparel_PersonalShieldTypeA.label>护盾腰带(优秀)</Apparel_PersonalShieldTypeA.label>
+  <Apparel_PersonalShieldTypeA.description>一个单人用的优秀能量护盾装置。它会试图阻挡任何高速子弹或者远程能量攻击，但对近战攻击以及近身射击无效，同时也会阻止持有者进行远程射击。</Apparel_PersonalShieldTypeA.description>
+  <Apparel_PersonalShieldTypeB.label>护盾腰带(精良)</Apparel_PersonalShieldTypeB.label>
+  <Apparel_PersonalShieldTypeB.description>一个单人用的精良能量护盾装置。它会试图阻挡任何高速子弹或者远程能量攻击，但对近战攻击以及近身射击无效，同时也会阻止持有者进行远程射击。</Apparel_PersonalShieldTypeB.description>
+  <Apparel_PersonalShieldTypeC.label>护盾腰带(史诗)</Apparel_PersonalShieldTypeC.label>
+  <Apparel_PersonalShieldTypeC.description>一个单人用的史诗级能量护盾装置。它会试图阻挡任何高速子弹或者远程能量攻击，但对近战攻击以及近身射击无效，同时也会阻止持有者进行远程射击。</Apparel_PersonalShieldTypeC.description>
+  <Apparel_PersonalShieldTypeD.label>护盾腰带(传说)</Apparel_PersonalShieldTypeD.label>
+  <Apparel_PersonalShieldTypeD.description>一个单人用的传说级能量护盾装置。它会试图阻挡任何高速子弹或者远程能量攻击，但对近战攻击以及近身射击无效，同时也会阻止持有者进行远程射击。</Apparel_PersonalShieldTypeD.description>
+</LanguageData>

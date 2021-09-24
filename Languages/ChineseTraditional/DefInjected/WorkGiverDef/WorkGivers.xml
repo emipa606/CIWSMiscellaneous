@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DoBillsCookCIWS.label>烹飪食物</DoBillsCookCIWS.label>
+  <DoBillsCookCIWS.verb>烹飪</DoBillsCookCIWS.verb>
+  <DoBillsCookCIWS.gerund>烹飪於</DoBillsCookCIWS.gerund>
+  <DoBillsKouCaiLianxi.label>口才練習</DoBillsKouCaiLianxi.label>
+  <DoBillsKouCaiLianxi.verb>練習</DoBillsKouCaiLianxi.verb>
+  <DoBillsKouCaiLianxi.gerund>練習於</DoBillsKouCaiLianxi.gerund>
+</LanguageData>

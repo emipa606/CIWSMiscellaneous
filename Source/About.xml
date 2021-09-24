@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>CIWS_Miscellaneous</name>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <author>topp2000</author>
+  <packageId>Topp2000.CIWS.Miscellaneous</packageId>
+  <modDependencies>
+    <li>
+      <packageId>Topp2000.CIWS.Core</packageId>
+      <displayName>CIWS_Core</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1493484469
+			</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <description>
+[Mod版本：1.2.1]
+
+需要【近防系统CIWS_核心】的支持。
+简介：https://www.gamejilu.com/notes/rimworld_clws/
+更新日志：
+1.2.1：支持1.2版本。
+1.1.1：支持1.1版本。
+1.0.1：支持1.0版本。
+0.19.1：支持0.19版本。
+0.18.5：添加超级疫苗，能长期免疫各种疾病。
+0.18.4：添加便携式运输舱发射器和简易运输舱。
+0.18.3：替换了白雪公主的新衣的贴图，在此感谢@lolidrop 的贴图支持。
+0.18.2：添加练习口才的镜子，消耗书籍练习口才，添加纳米修复舱，快速修复伤口。
+0.18.1：支持0.18版本。
+0.17.3：恢复护盾。
+0.17.2：添加衣服：白雪公主的新衣，只有集齐七个小矮人才能看见。
+0.17.1：支持0.17版本。
+0.16.2：在电力烹饪台可以制作生存包装食品。
+0.16.1：支持0.16版本。
+0.15.5：去除处理虫肉功能，增加一个合成蛋白功能，可以用植物合成鸡肉。
+0.15.4：支持繁体中文，感谢猫叔的翻译@Biscuit。
+0.15.3：将地板分离到更多植物。
+0.15.2：添加两种功能，1可以在电力烹饪台一次做十份食物，2可以用简单食物练习烹饪技能。
+0.15.1：从CIWS近防系统mod中分离，添加功能：制作护盾，一次烹饪十份饭，练习做饭，把虫子肉加工成鸡肉，低功耗落地灯，永不熄灭的篝火，军用加热器，军用冷却器。
+	</description>
+</ModMetaData>

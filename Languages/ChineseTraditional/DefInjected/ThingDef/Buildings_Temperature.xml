@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CampfireCIWS.label>永不熄滅的篝火</CampfireCIWS.label>
+  <CampfireCIWS.description>永不熄滅的火焰--只要有電。</CampfireCIWS.description>
+  <CampfireCIWS_Blueprint.label>永不熄滅的篝火 (藍圖)</CampfireCIWS_Blueprint.label>
+  <CampfireCIWS_Frame.label>永不熄滅的篝火 (建造中)</CampfireCIWS_Frame.label>
+  <CampfireCIWS_Frame.description>永不熄滅的火焰--只要有電。</CampfireCIWS_Frame.description>
+  <HeaterCIWS.label>軍用加熱器</HeaterCIWS.label>
+  <HeaterCIWS.description>一個軍方現役的加熱器。可以自動開關以達到設定的目標溫度。</HeaterCIWS.description>
+  <HeaterCIWS_Blueprint.label>軍用加熱器 (藍圖)</HeaterCIWS_Blueprint.label>
+  <HeaterCIWS_Blueprint_Install.label>軍用加熱器 (藍圖)</HeaterCIWS_Blueprint_Install.label>
+  <HeaterCIWS_Frame.label>軍用加熱器 (建造中)</HeaterCIWS_Frame.label>
+  <HeaterCIWS_Frame.description>一個軍方現役的加熱器。可以自動開關以達到設定的目標溫度。</HeaterCIWS_Frame.description>
+  <CoolerCIWS.label>軍用冷卻器</CoolerCIWS.label>
+  <CoolerCIWS.description>一個軍方現役的冷卻器。排氣口會排出大量熱氣。可以用來在夏天給房間降溫，或創造一個冷凍庫來儲存食物。</CoolerCIWS.description>
+  <CoolerCIWS_Blueprint.label>軍用冷卻器 (藍圖)</CoolerCIWS_Blueprint.label>
+  <CoolerCIWS_Frame.label>軍用冷卻器 (建造中)</CoolerCIWS_Frame.label>
+  <CoolerCIWS_Frame.description>一個軍方現役的冷卻器。排氣口會排出大量熱氣。可以用來在夏天給房間降溫，或創造一個冷凍庫來儲存食物。</CoolerCIWS_Frame.description>
+  <!--<CampfireP.label>永不熄滅的篝火</CampfireP.label>-->
+  <!--<CampfireP.description>永不熄滅的火焰- -只要有電。</CampfireP.description>-->
+  <!--<CampfireP_Blueprint.label>永不熄滅的篝火 (藍圖)</CampfireP_Blueprint.label>-->
+  <!--<CampfireP_Frame.label>永不熄滅的篝火 (建造中)</CampfireP_Frame.label>-->
+  <!--<CampfireP_Frame.description>永不熄滅的火焰- -只要有電。</CampfireP_Frame.description>-->
+  <!--<HeaterP.label>軍用加熱器</HeaterP.label>-->
+  <!--<HeaterP.description>一個軍方現役的加熱器。可以自動開關以達到設定的目標溫度。</HeaterP.description>-->
+  <!--<HeaterP_Blueprint.label>軍用加熱器 (藍圖)</HeaterP_Blueprint.label>-->
+  <!--<HeaterP_Blueprint_Install.label>軍用加熱器 (藍圖)</HeaterP_Blueprint_Install.label>-->
+  <!--<HeaterP_Frame.label>軍用加熱器 (建造中)</HeaterP_Frame.label>-->
+  <!--<HeaterP_Frame.description>一個軍方現役的加熱器。可以自動開關以達到設定的目標溫度。</HeaterP_Frame.description>-->
+  <!--<CoolerP.label>軍用冷卻器</CoolerP.label>-->
+  <!--<CoolerP.description>一個軍方現役的冷卻器。排氣口會排出大量熱氣。可以用來在夏天給房間降溫，或創造一個冷凍庫來儲存食物。</CoolerP.description>-->
+  <!--<CoolerP_Blueprint.label>軍用冷卻器 (藍圖)</CoolerP_Blueprint.label>-->
+  <!--<CoolerP_Frame.label>軍用冷卻器 (建造中)</CoolerP_Frame.label>-->
+  <!--<CoolerP_Frame.description>一個軍方現役的冷卻器。排氣口會排出大量熱氣。可以用來在夏天給房間降溫，或創造一個冷凍庫來儲存食物。</CoolerP_Frame.description>-->
+</LanguageData>

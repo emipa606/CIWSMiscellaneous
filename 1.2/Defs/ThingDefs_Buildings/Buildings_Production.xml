@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>ElectricStove_Auto</defName>
+    <label>自动电力炉灶</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <description>自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。</description>
+    <graphicData>
+      <texPath>Things/Building/Production/TableStoveAuto</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>CookMealFine</li>
+      <li>CookMealLavish</li>
+      <li>CookMealSimpleDa</li>
+      <li>CookMealFineDa</li>
+      <li>CookMealLavishDa</li>
+      <li>CookMealSurvivalDa</li>
+      <li>Make_Pemmican</li>
+      <li>CookZhiwudanbai</li>
+      <li>CookChongRou</li>
+      <li>CookLianxi</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>CIWSMedicalBed</defName>
+    <label>纳米修复舱</label>
+    <description>近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Bed/CIWSMedicalBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>2850</WorkToBuild>
+      <Mass>45</Mass>
+      <Flammability>1.0</Flammability>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>1.0</Comfort>
+      <ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.15</MedicalTendQualityOffset>
+      <SurgerySuccessChanceFactor>1.15</SurgerySuccessChanceFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>VitalsMonitor</li>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <costList>
+      <Steel>80</Steel>
+      <CIWSBaiYaoFen>10</CIWSBaiYaoFen>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>40</bed_healPerDay>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+  <!-- 	<ThingDef ParentName="BuildingBase">
+		<defName>CIWSShiWuChuanSongQi</defName>
+		<label>应急食物传送器</label>
+		<description>紧急情况下的食物传送器，每隔三天传送一次简单食物。</description>
+		<graphicData>
+			<texPath>Things/Building/Production/CIWSShiWuChuanSongQi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1, 1)</drawSize>
+			<shadowData>
+				<volume>(1.8, 1.0, 0.2)</volume>
+				<offset>(0.0, 0.0, -0.4)</offset>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>300</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Spawner">
+				<requiresPower>true</requiresPower>
+				<thingToSpawn>Gold</thingToSpawn>
+				<spawnCount>54</spawnCount>
+				<spawnIntervalRange><min>60000</min><max>60000</max></spawnIntervalRange>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>8</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+			</li>
+		</comps>
+		<altitudeLayer>Building</altitudeLayer>
+		<designationCategory>Production</designationCategory>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+			<Mass>35</Mass>
+			<WorkToBuild>8000</WorkToBuild>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1, 1)</size>
+		<fillPercent>1.0</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<tradeability>Sellable</tradeability>
+	</ThingDef> -->
+</Defs>

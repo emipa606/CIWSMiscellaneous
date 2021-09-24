@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>SuperVaccine</defName>
+    <label>超级疫苗</label>
+    <description>超级疫苗，能在一年内预防肠道蠕虫，纤维纳米机械感染，感官纳米机械感染，流感，瘟疫，疟疾，昏睡病的发生。</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/SuperVaccine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>64</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SuperVaccineHigh</hediffDef>
+          <severity>1.2</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <CIWSBaiYaoFen>10</CIWSBaiYaoFen>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>SuperVaccineHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>超级疫苗</label>
+    <description>超级疫苗，能在一年内预防肠道蠕虫，纤维纳米机械感染，感官纳米机械感染，流感，瘟疫，疟疾，昏睡病的发生。</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.2</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>GutWorms</li>
+          <li>FibrousMechanites</li>
+          <li>SensoryMechanites</li>
+          <li>Flu</li>
+          <li>MuscleParasites</li>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
+          <li>WoundInfection</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

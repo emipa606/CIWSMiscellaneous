@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CampfireCIWS.label>永不熄灭的篝火</CampfireCIWS.label>
+  <CampfireCIWS.description>永不熄灭的火焰--只要有电。</CampfireCIWS.description>
+  <CampfireCIWS_Blueprint.label>永不熄灭的篝火 (blueprint)</CampfireCIWS_Blueprint.label>
+  <CampfireCIWS_Frame.label>永不熄灭的篝火 (building)</CampfireCIWS_Frame.label>
+  <CampfireCIWS_Frame.description>永不熄灭的火焰--只要有电。</CampfireCIWS_Frame.description>
+  <HeaterCIWS.label>军用加热器</HeaterCIWS.label>
+  <HeaterCIWS.description>一个军方现役的加热器。可以自动开关以达到设定的目标温度。</HeaterCIWS.description>
+  <HeaterCIWS_Blueprint.label>军用加热器 (blueprint)</HeaterCIWS_Blueprint.label>
+  <HeaterCIWS_Blueprint_Install.label>军用加热器 (blueprint)</HeaterCIWS_Blueprint_Install.label>
+  <HeaterCIWS_Frame.label>军用加热器 (building)</HeaterCIWS_Frame.label>
+  <HeaterCIWS_Frame.description>一个军方现役的加热器。可以自动开关以达到设定的目标温度。</HeaterCIWS_Frame.description>
+  <CoolerCIWS.label>军用冷却器</CoolerCIWS.label>
+  <CoolerCIWS.description>一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。</CoolerCIWS.description>
+  <CoolerCIWS_Blueprint.label>军用冷却器 (blueprint)</CoolerCIWS_Blueprint.label>
+  <CoolerCIWS_Frame.label>军用冷却器 (building)</CoolerCIWS_Frame.label>
+  <CoolerCIWS_Frame.description>一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。</CoolerCIWS_Frame.description>
+  <!--<CampfireP.label>never put out the campfire</CampfireP.label>-->
+  <!--<CampfireP.description>The campfire that never goes out - as long as there is electricity.</CampfireP.description>-->
+  <!--<CampfireP_Blueprint.label>never put out the campfire(blueprint)</CampfireP_Blueprint.label>-->
+  <!--<CampfireP_Frame.label>never put out the campfire(building)</CampfireP_Frame.label>-->
+  <!--<CampfireP_Frame.description>The campfire that never goes out - as long as there is electricity.</CampfireP_Frame.description>-->
+  <!--<HeaterP.label>military heater</HeaterP.label>-->
+  <!--<HeaterP.description>An electrical device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature.</HeaterP.description>-->
+  <!--<HeaterP_Blueprint.label>military heater(blueprint)</HeaterP_Blueprint.label>-->
+  <!--<HeaterP_Blueprint_Install.label>military heater(blueprint)</HeaterP_Blueprint_Install.label>-->
+  <!--<HeaterP_Frame.label>military heater(building)</HeaterP_Frame.label>-->
+  <!--<HeaterP_Frame.description>An electrical device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature.</HeaterP_Frame.description>-->
+  <!--<CoolerP.label>military cooler</CoolerP.label>-->
+  <!--<CoolerP.description>An electrical device that fits into a wall and pushes cold air into a room. Its exhaust port generates a lot of heat. Can be used to cool down rooms during summer, or to create a walk-in freezer. </CoolerP.description>-->
+  <!--<CoolerP_Blueprint.label>military cooler (blueprint)</CoolerP_Blueprint.label>-->
+  <!--<CoolerP_Frame.label>military cooler(building)</CoolerP_Frame.label>-->
+  <!--<CoolerP_Frame.description>An electrical device that fits into a wall and pushes cold air into a room. Its exhaust port generates a lot of heat. Can be used to cool down rooms during summer, or to create a walk-in freezer. </CoolerP_Frame.description>-->
+</LanguageData>

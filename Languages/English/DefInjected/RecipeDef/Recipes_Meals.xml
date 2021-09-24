@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CookMealSimpleDa.label>Cooking ten pieces of simple meal</CookMealSimpleDa.label>
+  <CookMealSimpleDa.description>Cooks a straightforward meal from one ingredient.</CookMealSimpleDa.description>
+  <CookMealSimpleDa.jobString>cooking pot.</CookMealSimpleDa.jobString>
+  <CookMealFineDa.label>Cook ten fine meal</CookMealFineDa.label>
+  <CookMealFineDa.description>Cooks a somewhat complex meal from a combination of raw meat and raw plant ingredients.</CookMealFineDa.description>
+  <CookMealFineDa.jobString>cooking pot.</CookMealFineDa.jobString>
+  <CookMealLavishDa.label>Cooking ten lavish meal</CookMealLavishDa.label>
+  <CookMealLavishDa.description>Cooks a very complex meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</CookMealLavishDa.description>
+  <CookMealLavishDa.jobString>cooking pot.</CookMealLavishDa.jobString>
+  <CookMealSurvivalDa.label>Cooking ten packaged survival meal</CookMealSurvivalDa.label>
+  <CookMealSurvivalDa.description>Cooks a packaged survival meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</CookMealSurvivalDa.description>
+  <CookMealSurvivalDa.jobString>Press the food hard.</CookMealSurvivalDa.jobString>
+  <CookLianxi.label>Practice cooking</CookLianxi.label>
+  <CookLianxi.description>Use two simple meal to practice cooking skills.</CookLianxi.description>
+  <CookLianxi.jobString>practicing.</CookLianxi.jobString>
+  <CookZhiwudanbai.label>Synthetic plant protein</CookZhiwudanbai.label>
+  <CookZhiwudanbai.description>The protein in the plant is synthesized from chicken.</CookZhiwudanbai.description>
+  <CookZhiwudanbai.jobString>processing.</CookZhiwudanbai.jobString>
+</LanguageData>

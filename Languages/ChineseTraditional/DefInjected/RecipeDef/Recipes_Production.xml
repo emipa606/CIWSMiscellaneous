@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KouCaiLianxi.label>練習口才</KouCaiLianxi.label>
+  <KouCaiLianxi.description>閱讀書籍練習口才技能。</KouCaiLianxi.description>
+  <KouCaiLianxi.jobString>正在練習。</KouCaiLianxi.jobString>
+  <MakeYanJiangYuKouCai.label>製作《演講與口才》</MakeYanJiangYuKouCai.label>
+  <MakeYanJiangYuKouCai.description>製作《演講與口才》。</MakeYanJiangYuKouCai.description>
+  <MakeYanJiangYuKouCai.jobString>正在製作《演講與口才》。</MakeYanJiangYuKouCai.jobString>
+</LanguageData>

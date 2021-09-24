@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CookMealSimpleDa.label>烹饪十份简易食物</CookMealSimpleDa.label>
+  <CookMealSimpleDa.description>直接用一种原材料做出食物来。</CookMealSimpleDa.description>
+  <CookMealSimpleDa.jobString>正在烹饪十份简易食物。</CookMealSimpleDa.jobString>
+  <CookMealFineDa.label>烹饪十份精致食物</CookMealFineDa.label>
+  <CookMealFineDa.description>用生肉配上生菜的组合作为原料来制作相对更复杂的食物。</CookMealFineDa.description>
+  <CookMealFineDa.jobString>正在烹饪十份精致食物。</CookMealFineDa.jobString>
+  <CookMealLavishDa.label>烹饪十份奢侈食物</CookMealLavishDa.label>
+  <CookMealLavishDa.description>用生肉配上生菜的组合作为原料来制作非常复杂的食物，会消耗很多的食材。</CookMealLavishDa.description>
+  <CookMealLavishDa.jobString>正在烹饪十份奢侈食物。</CookMealLavishDa.jobString>
+  <CookMealSurvivalDa.label>烹饪十份包装生存食品</CookMealSurvivalDa.label>
+  <CookMealSurvivalDa.description>高品质的包装食品，生产以供极端生存的环境下食用。</CookMealSurvivalDa.description>
+  <CookMealSurvivalDa.jobString>正在烹饪十份包装生存食品。</CookMealSurvivalDa.jobString>
+  <CookLianxi.label>练习烹饪</CookLianxi.label>
+  <CookLianxi.description>用两份简单食物来练习烹饪技能。</CookLianxi.description>
+  <CookLianxi.jobString>正在练习烹饪。</CookLianxi.jobString>
+  <CookZhiwudanbai.label>合成植物蛋白</CookZhiwudanbai.label>
+  <CookZhiwudanbai.description>将植物中的蛋白质合成鸡肉。</CookZhiwudanbai.description>
+  <CookZhiwudanbai.jobString>正在合成植物蛋白。</CookZhiwudanbai.jobString>
+</LanguageData>

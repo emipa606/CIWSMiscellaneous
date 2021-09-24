@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ElectricStove_Auto.label>自動電力爐灶</ElectricStove_Auto.label>
+  <ElectricStove_Auto.description>自動電力爐灶，可以批量烹飪食物，也可以練習烹飪技能。</ElectricStove_Auto.description>
+  <ElectricStove_Auto_Blueprint.label>自動電力爐灶 (藍圖)</ElectricStove_Auto_Blueprint.label>
+  <ElectricStove_Auto_Blueprint_Install.label>自動電力爐灶 (藍圖)</ElectricStove_Auto_Blueprint_Install.label>
+  <ElectricStove_Auto_Frame.label>自動電力爐灶 (建造中)</ElectricStove_Auto_Frame.label>
+  <ElectricStove_Auto_Frame.description>自動電力爐灶，可以批量烹飪食物，也可以練習烹飪技能。</ElectricStove_Auto_Frame.description>
+  <CIWSMedicalBed.label>納米修復艙</CIWSMedicalBed.label>
+  <CIWSMedicalBed.description>近防科技，利用納米技術快速修復身體的損傷，甚至不需要包紮。</CIWSMedicalBed.description>
+  <CIWSMedicalBed_Blueprint.label>納米修復艙 (藍圖)</CIWSMedicalBed_Blueprint.label>
+  <CIWSMedicalBed_Blueprint_Install.label>納米修復艙 (藍圖)</CIWSMedicalBed_Blueprint_Install.label>
+  <CIWSMedicalBed_Frame.label>納米修復艙 (建造中)</CIWSMedicalBed_Frame.label>
+  <CIWSMedicalBed_Frame.description>近防科技，利用納米技術快速修復身體的損傷，甚至不需要包紮。</CIWSMedicalBed_Frame.description>
+</LanguageData>

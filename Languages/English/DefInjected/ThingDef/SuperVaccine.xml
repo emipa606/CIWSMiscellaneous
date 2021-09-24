@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SuperVaccine.label>超级疫苗</SuperVaccine.label>
+  <SuperVaccine.description>超级疫苗，能在一年内预防肠道蠕虫，纤维纳米机械感染，感官纳米机械感染，流感，瘟疫，疟疾，昏睡病的发生。</SuperVaccine.description>
+  <SuperVaccine.ingestible.ingestCommandString>Take {0}</SuperVaccine.ingestible.ingestCommandString>
+  <SuperVaccine.ingestible.ingestReportString>Taking {0}.</SuperVaccine.ingestible.ingestReportString>
+</LanguageData>
