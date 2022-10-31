@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- <ThingDef Abstract="True" Name="JieNengBase" ParentName="LampBase"> -->
+  <!-- <graphicData> -->
+  <!-- <texPath>Things/Building/Furniture/LampStanding</texPath> -->
+  <!-- </graphicData> -->
+  <!-- <costList> -->
+  <!-- <Steel>15</Steel> -->
+  <!-- </costList> -->
+  <!-- <statBases> -->
+  <!-- <Mass>4</Mass> -->
+  <!-- </statBases> -->
+  <!-- <comps> -->
+  <!-- <li Class="CompProperties_Power"> -->
+  <!-- <compClass>CompPowerTrader</compClass> -->
+  <!-- <basePowerConsumption>5</basePowerConsumption> -->
+  <!-- <shortCircuitInRain>false</shortCircuitInRain> -->
+  <!-- </li> -->
+  <!-- </comps> -->
+  <!-- </ThingDef> -->
+  <!-- <ThingDef ParentName="JieNengBase" > -->
+  <!-- <defName>JieNengDeng</defName> -->
+  <!-- <label>节能灯</label> -->
+  <!-- <description>节能灯，低功耗的照明灯。</description> -->
+  <!-- <comps> -->
+  <!-- <li Class="CompProperties_Glower"> -->
+  <!-- <glowRadius>15</glowRadius> -->
+  <!-- <glowColor>(217,217,208,0)</glowColor> -->
+  <!-- </li> -->
+  <!-- </comps> -->
+  <!-- </ThingDef> -->
+  <!-- <ThingDef ParentName="LampBase"> -->
+  <!-- <defName>JieNengTaiYangDeng</defName> -->
+  <!-- <label>节能太阳灯</label> -->
+  <!-- <description>节能型的太阳灯。</description> -->
+  <!-- <thingClass>Building_SunLamp</thingClass> -->
+  <!-- <graphicData> -->
+  <!-- <texPath>Things/Building/Production/LampSun</texPath> -->
+  <!-- </graphicData> -->
+  <!-- <blockWind>true</blockWind> -->
+  <!-- <tickerType>Rare</tickerType> -->
+  <!-- <statBases> -->
+  <!-- <WorkToBuild>330</WorkToBuild> -->
+  <!-- <Mass>4.5</Mass> -->
+  <!-- </statBases> -->
+  <!-- <costList> -->
+  <!-- <Steel>25</Steel> -->
+  <!-- </costList> -->
+  <!-- <comps> -->
+  <!-- <li Class="CompProperties_Glower"> -->
+  <!-- <overlightRadius>7.0</overlightRadius> -->
+  <!-- <glowRadius>14</glowRadius> -->
+  <!-- <glowColor>(370,370,370,0)</glowColor> -->
+  <!-- </li> -->
+  <!-- <li Class="CompProperties_Power"> -->
+  <!-- <compClass>CompPowerTrader</compClass> -->
+  <!-- <startElectricalFires>true</startElectricalFires> -->
+  <!-- <basePowerConsumption>1000</basePowerConsumption> -->
+  <!-- </li> -->
+  <!-- <li Class="CompProperties_Schedule"> -->
+  <!-- <startTime>0.25</startTime> -->
+  <!-- <endTime>0.8</endTime> -->
+  <!-- <offMessage>植物休息时自动关闭</offMessage> -->
+  <!-- </li> -->
+  <!-- </comps> -->
+  <!-- <specialDisplayRadius>5.8</specialDisplayRadius> -->
+  <!-- </ThingDef> -->
+  <ThingDef ParentName="BenchBase">
+    <defName>CIWSMirror</defName>
+    <label>落地镜</label>
+    <description>一个巨大的镜子，可以练习口才，感谢lolidrop的贴图支持。</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/CIWSMirror/CIWSMirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <designationCategory>Furniture</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>15</Mass>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <recipes>
+      <li>KouCaiLianxi</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
