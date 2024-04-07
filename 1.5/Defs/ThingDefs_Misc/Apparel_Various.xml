@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_SnowWhiteCoats</defName>
+    <label>白雪公主的新衣</label>
+    <description>白雪公主的新衣，只有集齐七个小矮人才能看见（雾），感谢lolidrop 的贴图支持。</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>2.2</Mass>
+      <ArmorRating_Sharp>5.0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>5.0</ArmorRating_Blunt>
+      <ArmorRating_Heat>5.0</ArmorRating_Heat>
+      <Insulation_Cold>56</Insulation_Cold>
+      <Insulation_Heat>36</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <smeltable>false</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Waist</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>Neck</li>
+        <li>FullHead</li>
+        <li>Hands</li>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+        <!--贴身-->
+        <li>Shell</li>
+        <!--外套-->
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>

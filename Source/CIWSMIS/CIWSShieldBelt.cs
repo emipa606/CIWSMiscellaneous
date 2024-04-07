@@ -17,6 +17,8 @@ public class CIWSShieldBelt : Apparel
 
     private const int JitterDurationTicks = 8;
 
+    private static readonly SoundDef energyShield_Broken = SoundDef.Named("EnergyShield_Broken");
+
     private static readonly Material BubbleMat =
         MaterialPool.MatFrom("Other/ShieldBubble", ShaderDatabase.Transparent);
 
@@ -172,7 +174,7 @@ public class CIWSShieldBelt : Apparel
         var num2 = (int)num;
         for (var i = 0; i < num2; i++)
         {
-            FleckMaker.ThrowDustPuff(vector, Wearer.Map, Rand.Range(0.8f, 1.2f));
+            FleckMaker.ThrowDustPuff(vector, Wearer.Map, Rand.Range(0.8f, MinDrawSize));
         }
 
         lastAbsorbDamageTick = Find.TickManager.TicksGame;
@@ -181,13 +183,13 @@ public class CIWSShieldBelt : Apparel
 
     private void Break()
     {
-        SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
+        energyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
         FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
         for (var i = 0; i < 6; i++)
         {
             var vector = Wearer.TrueCenter() + (Vector3Utility.HorizontalVectorFromAngle(Rand.Range(0, 360)) *
                                                 Rand.Range(0.3f, 0.6f));
-            FleckMaker.ThrowDustPuff(vector, Wearer.Map, Rand.Range(0.8f, 1.2f));
+            FleckMaker.ThrowDustPuff(vector, Wearer.Map, Rand.Range(0.8f, MinDrawSize));
         }
 
         energy = 0f;
@@ -213,13 +215,13 @@ public class CIWSShieldBelt : Apparel
             return;
         }
 
-        var num = Mathf.Lerp(1.2f, 1.55f, energy);
+        var num = Mathf.Lerp(MinDrawSize, MaxDrawSize, energy);
         var drawPos = Wearer.Drawer.DrawPos;
         drawPos.y = AltitudeLayer.PawnUnused.AltitudeFor();
         var num2 = Find.TickManager.TicksGame - lastAbsorbDamageTick;
-        if (num2 < 8)
+        if (num2 < JitterDurationTicks)
         {
-            var num3 = (8 - num2) / 8f * 0.05f;
+            var num3 = (JitterDurationTicks - num2) / 8f * MaxDamagedJitterDist;
             drawPos += impactAngleVect * num3;
             num -= num3;
         }
