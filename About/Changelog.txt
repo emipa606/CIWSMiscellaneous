@@ -1,5 +1,8 @@
 # Changelog for CIWSMiscellaneous
 
+1.5.1 - Shield belts now have quality and inherits the regular apparel def for compatibility
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 
