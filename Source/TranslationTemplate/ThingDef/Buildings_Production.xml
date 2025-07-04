@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 纳米修复舱 -->
+  <CIWSMedicalBed.label>纳米修复舱</CIWSMedicalBed.label>
+  <!-- EN: 近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。 -->
+  <CIWSMedicalBed.description>近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。</CIWSMedicalBed.description>
+  <!-- EN: 自动电力炉灶 -->
+  <ElectricStove_Auto.label>自动电力炉灶</ElectricStove_Auto.label>
+  <!-- EN: 自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。 -->
+  <ElectricStove_Auto.description>自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。</ElectricStove_Auto.description>
+</LanguageData>

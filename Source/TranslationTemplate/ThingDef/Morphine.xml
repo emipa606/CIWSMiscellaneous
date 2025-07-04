@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 吗啡 -->
+  <Morphine.label>吗啡</Morphine.label>
+  <!-- EN: 吗啡。 -->
+  <Morphine.description>吗啡。</Morphine.description>
+  <!-- EN: Take {0} -->
+  <Morphine.ingestible.ingestCommandString>Take {0}</Morphine.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <Morphine.ingestible.ingestReportString>Taking {0}.</Morphine.ingestible.ingestReportString>
+</LanguageData>

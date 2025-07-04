@@ -47,7 +47,7 @@ public class CIWSShieldBelt : Apparel
 
     public float Energy => energy;
 
-    public ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
+    private ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -83,7 +83,7 @@ public class CIWSShieldBelt : Apparel
         {
             yield return new CIWS_Gizmo_EnergyShieldStatus
             {
-                shield = this
+                Shield = this
             };
         }
     }
@@ -93,7 +93,7 @@ public class CIWSShieldBelt : Apparel
         return EnergyMax * ApparelScorePerEnergyMax;
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)
@@ -109,7 +109,7 @@ public class CIWSShieldBelt : Apparel
                 ticksToReset--;
                 if (ticksToReset <= 0)
                 {
-                    Reset();
+                    reset();
                 }
 
                 break;
@@ -137,7 +137,7 @@ public class CIWSShieldBelt : Apparel
         if (dinfo.Def == DamageDefOf.EMP)
         {
             energy = 0f;
-            Break();
+            breakShield();
             return false;
         }
 
@@ -149,22 +149,22 @@ public class CIWSShieldBelt : Apparel
         energy -= dinfo.Amount * EnergyLossPerDamage;
         if (energy < 0f)
         {
-            Break();
+            breakShield();
         }
         else
         {
-            AbsorbedDamage(dinfo);
+            absorbedDamage(dinfo);
         }
 
         return true;
     }
 
-    public void KeepDisplaying()
+    private void keepDisplaying()
     {
         lastKeepDisplayTick = Find.TickManager.TicksGame;
     }
 
-    private void AbsorbedDamage(DamageInfo dinfo)
+    private void absorbedDamage(DamageInfo dinfo)
     {
         SoundDefOf.EnergyShield_AbsorbDamage.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
         impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
@@ -178,10 +178,10 @@ public class CIWSShieldBelt : Apparel
         }
 
         lastAbsorbDamageTick = Find.TickManager.TicksGame;
-        KeepDisplaying();
+        keepDisplaying();
     }
 
-    private void Break()
+    private void breakShield()
     {
         energyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
         FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
@@ -196,7 +196,7 @@ public class CIWSShieldBelt : Apparel
         ticksToReset = StartingTicksToReset;
     }
 
-    private void Reset()
+    private void reset()
     {
         if (Wearer.Spawned)
         {

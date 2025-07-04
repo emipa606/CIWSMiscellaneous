@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 1263566836
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: da94c580adf87e73a387b3dad8bf25cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: da94c580adf87e73a387b3dad8bf25cd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Fat_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Production/CIWSShiWuChuanSongQi.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/CIWSMirror/CIWSMirror_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Hulk_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Male_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Female_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/Bed/CIWSMedicalBed_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Female_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Thin_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Thin_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Male_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/CIWSMirror/CIWSMirror_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Hulk_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Female_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Fat_south.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/Bed/CIWSMedicalBed_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Hulk_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Production/TableStoveAuto_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/CIWSMirror/CIWSMirror_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Fat_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Item/Drug/SuperVaccine.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Production/TableStoveAuto_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Male_east.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Pawn/Humanlike/Apparel/SnowWhiteCoats/SnowWhiteCoats_Thin_north.png
+- Assets/Data/Mlie.CIWSMiscellaneous/Textures/Things/Building/Furniture/Bed/CIWSMedicalBed_south.png
+Dependencies: []

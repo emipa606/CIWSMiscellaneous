@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: administer 超级疫苗 -->
+  <Administer_SuperVaccine.label>administer 超级疫苗</Administer_SuperVaccine.label>
+  <!-- EN: Administering 超级疫苗. -->
+  <Administer_SuperVaccine.jobString>Administering 超级疫苗.</Administer_SuperVaccine.jobString>
+  <!-- EN: make 护盾腰带(优秀) -->
+  <Make_Apparel_PersonalShieldTypeA.label>make 护盾腰带(优秀)</Make_Apparel_PersonalShieldTypeA.label>
+  <!-- EN: Make a 护盾腰带(优秀). -->
+  <Make_Apparel_PersonalShieldTypeA.description>Make a 护盾腰带(优秀).</Make_Apparel_PersonalShieldTypeA.description>
+  <!-- EN: Making 护盾腰带(优秀). -->
+  <Make_Apparel_PersonalShieldTypeA.jobString>Making 护盾腰带(优秀).</Make_Apparel_PersonalShieldTypeA.jobString>
+  <!-- EN: make 护盾腰带(精良) -->
+  <Make_Apparel_PersonalShieldTypeB.label>make 护盾腰带(精良)</Make_Apparel_PersonalShieldTypeB.label>
+  <!-- EN: Make a 护盾腰带(精良). -->
+  <Make_Apparel_PersonalShieldTypeB.description>Make a 护盾腰带(精良).</Make_Apparel_PersonalShieldTypeB.description>
+  <!-- EN: Making 护盾腰带(精良). -->
+  <Make_Apparel_PersonalShieldTypeB.jobString>Making 护盾腰带(精良).</Make_Apparel_PersonalShieldTypeB.jobString>
+  <!-- EN: make 超级疫苗 -->
+  <Make_SuperVaccine.label>make 超级疫苗</Make_SuperVaccine.label>
+  <!-- EN: Make a 超级疫苗. -->
+  <Make_SuperVaccine.description>Make a 超级疫苗.</Make_SuperVaccine.description>
+  <!-- EN: Making 超级疫苗. -->
+  <Make_SuperVaccine.jobString>Making 超级疫苗.</Make_SuperVaccine.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 大功率排水泵 -->
+  <CIWSMoisturePump.label>大功率排水泵</CIWSMoisturePump.label>
+  <!-- EN: 大功率排水泵。 -->
+  <CIWSMoisturePump.description>大功率排水泵。</CIWSMoisturePump.description>
+  <!-- EN: 重型运输舱 -->
+  <CIWSTransportPod.label>重型运输舱</CIWSTransportPod.label>
+  <!-- EN: 重型运输舱，用于紧急情况下人员的返回。 -->
+  <CIWSTransportPod.description>重型运输舱，用于紧急情况下人员的返回。</CIWSTransportPod.description>
+</LanguageData>

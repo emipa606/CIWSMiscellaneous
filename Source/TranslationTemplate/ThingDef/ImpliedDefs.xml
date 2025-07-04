@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 永不熄灭的篝火 (blueprint) -->
+  <Blueprint_CampfireCIWS.label>永不熄灭的篝火 (blueprint)</Blueprint_CampfireCIWS.label>
+  <!-- EN: 纳米修复舱 (blueprint) -->
+  <Blueprint_CIWSMedicalBed.label>纳米修复舱 (blueprint)</Blueprint_CIWSMedicalBed.label>
+  <!-- EN: 落地镜 (blueprint) -->
+  <Blueprint_CIWSMirror.label>落地镜 (blueprint)</Blueprint_CIWSMirror.label>
+  <!-- EN: 大功率排水泵 (blueprint) -->
+  <Blueprint_CIWSMoisturePump.label>大功率排水泵 (blueprint)</Blueprint_CIWSMoisturePump.label>
+  <!-- EN: 军用冷却器 (blueprint) -->
+  <Blueprint_CoolerCIWS.label>军用冷却器 (blueprint)</Blueprint_CoolerCIWS.label>
+  <!-- EN: 自动电力炉灶 (blueprint) -->
+  <Blueprint_ElectricStove_Auto.label>自动电力炉灶 (blueprint)</Blueprint_ElectricStove_Auto.label>
+  <!-- EN: 军用加热器 (blueprint) -->
+  <Blueprint_HeaterCIWS.label>军用加热器 (blueprint)</Blueprint_HeaterCIWS.label>
+  <!-- EN: 纳米修复舱 (blueprint) -->
+  <Blueprint_Install_CIWSMedicalBed.label>纳米修复舱 (blueprint)</Blueprint_Install_CIWSMedicalBed.label>
+  <!-- EN: 落地镜 (blueprint) -->
+  <Blueprint_Install_CIWSMirror.label>落地镜 (blueprint)</Blueprint_Install_CIWSMirror.label>
+  <!-- EN: 大功率排水泵 (blueprint) -->
+  <Blueprint_Install_CIWSMoisturePump.label>大功率排水泵 (blueprint)</Blueprint_Install_CIWSMoisturePump.label>
+  <!-- EN: 自动电力炉灶 (blueprint) -->
+  <Blueprint_Install_ElectricStove_Auto.label>自动电力炉灶 (blueprint)</Blueprint_Install_ElectricStove_Auto.label>
+  <!-- EN: 军用加热器 (blueprint) -->
+  <Blueprint_Install_HeaterCIWS.label>军用加热器 (blueprint)</Blueprint_Install_HeaterCIWS.label>
+  <!-- EN: 永不熄灭的篝火 (building) -->
+  <Frame_CampfireCIWS.label>永不熄灭的篝火 (building)</Frame_CampfireCIWS.label>
+  <!-- EN: 永不熄灭的火焰- -只要有电。 -->
+  <Frame_CampfireCIWS.description>永不熄灭的火焰--只要有电。</Frame_CampfireCIWS.description>
+  <!-- EN: 纳米修复舱 (building) -->
+  <Frame_CIWSMedicalBed.label>纳米修复舱 (building)</Frame_CIWSMedicalBed.label>
+  <!-- EN: 近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。 -->
+  <Frame_CIWSMedicalBed.description>近防科技，利用纳米技术快速修复身体的损伤，甚至不需要包扎。</Frame_CIWSMedicalBed.description>
+  <!-- EN: 落地镜 (building) -->
+  <Frame_CIWSMirror.label>落地镜 (building)</Frame_CIWSMirror.label>
+  <!-- EN: 一个巨大的镜子，可以练习口才，感谢lolidrop的贴图支持。 -->
+  <Frame_CIWSMirror.description>一个巨大的镜子，可以练习口才，感谢lolidrop的贴图支持。</Frame_CIWSMirror.description>
+  <!-- EN: 大功率排水泵 (building) -->
+  <Frame_CIWSMoisturePump.label>大功率排水泵 (building)</Frame_CIWSMoisturePump.label>
+  <!-- EN: 大功率排水泵。 -->
+  <Frame_CIWSMoisturePump.description>大功率排水泵。</Frame_CIWSMoisturePump.description>
+  <!-- EN: 军用冷却器 (building) -->
+  <Frame_CoolerCIWS.label>军用冷却器 (building)</Frame_CoolerCIWS.label>
+  <!-- EN: 一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。 -->
+  <Frame_CoolerCIWS.description>一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。</Frame_CoolerCIWS.description>
+  <!-- EN: 自动电力炉灶 (building) -->
+  <Frame_ElectricStove_Auto.label>自动电力炉灶 (building)</Frame_ElectricStove_Auto.label>
+  <!-- EN: 自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。 -->
+  <Frame_ElectricStove_Auto.description>自动电力炉灶，可以批量烹饪食物，也可以练习烹饪技能。</Frame_ElectricStove_Auto.description>
+  <!-- EN: 军用加热器 (building) -->
+  <Frame_HeaterCIWS.label>军用加热器 (building)</Frame_HeaterCIWS.label>
+  <!-- EN: 一个军方现役的加热器。可以自动开关以达到设定的目标温度。 -->
+  <Frame_HeaterCIWS.description>一个军方现役的加热器。可以自动开关以达到设定的目标温度。</Frame_HeaterCIWS.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 永不熄灭的篝火 -->
+  <CampfireCIWS.label>永不熄灭的篝火</CampfireCIWS.label>
+  <!-- EN: 永不熄灭的火焰- -只要有电。 -->
+  <CampfireCIWS.description>永不熄灭的火焰--只要有电。</CampfireCIWS.description>
+  <!-- EN: 军用冷却器 -->
+  <CoolerCIWS.label>军用冷却器</CoolerCIWS.label>
+  <!-- EN: 一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。 -->
+  <CoolerCIWS.description>一个军方现役的冷却器。排气口会排出大量热气。可以用来在夏天给房间降温，或创造一个冷冻库来储存食物。</CoolerCIWS.description>
+  <!-- EN: 军用加热器 -->
+  <HeaterCIWS.label>军用加热器</HeaterCIWS.label>
+  <!-- EN: 一个军方现役的加热器。可以自动开关以达到设定的目标温度。 -->
+  <HeaterCIWS.description>一个军方现役的加热器。可以自动开关以达到设定的目标温度。</HeaterCIWS.description>
+</LanguageData>

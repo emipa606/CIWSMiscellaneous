@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 烹饪食物 -->
+  <DoBillsCookCIWS.label>烹饪食物</DoBillsCookCIWS.label>
+  <!-- EN: 烹饪于 -->
+  <DoBillsCookCIWS.gerund>烹饪于</DoBillsCookCIWS.gerund>
+  <!-- EN: cook -->
+  <DoBillsCookCIWS.verb>cook</DoBillsCookCIWS.verb>
+  <!-- EN: 口才练习 -->
+  <DoBillsKouCaiLianxi.label>口才练习</DoBillsKouCaiLianxi.label>
+  <!-- EN: 练习于 -->
+  <DoBillsKouCaiLianxi.gerund>练习于</DoBillsKouCaiLianxi.gerund>
+  <!-- EN: cremate -->
+  <DoBillsKouCaiLianxi.verb>cremate</DoBillsKouCaiLianxi.verb>
+</LanguageData>
