@@ -1,13 +1,13 @@
 # [CIWS_Miscellaneous (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2610391365)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of topp2000s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1493497872
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Add 4 levels of shield belt: excellent, sophisticated, epic, legendary. It can block melee weapons and long-range weapons. The first two grades can be made on the machine table.
 Adding Snow White's coat can cover all parts of the body.
@@ -36,13 +36,13 @@ Increase the power of heaters and Coolers.
 0.15.2：添加两种功能，1可以在电力烹饪台一次做十份食物，2可以用简单食物练习烹饪技能。
 0.15.1：从CIWS近防系统mod中分离，添加功能：制作护盾，一次烹饪十份饭，练习做饭，把虫子肉加工成鸡肉，低功耗落地灯，永不熄灭的篝火，军用加热器，军用冷却器。
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -50,4 +50,4 @@ Increase the power of heaters and Coolers.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/CIWSMiscellaneous?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2610391365) | tags:  defense, equipment
+[![Image](https://img.shields.io/github/v/release/emipa606/CIWSMiscellaneous?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2610391365) | defense, equipment

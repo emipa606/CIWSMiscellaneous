@@ -3,4 +3,31 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CIWSMIS/CIWSMIS.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Apparel_Belts.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Misc/Apparel_Various.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Furniture.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Misc.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Production.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Temperature.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WorkGiverDefs/">
+    <File Path="../1.7/Defs/WorkGiverDefs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Drugs/">
+    <File Path="../1.7/Defs/Drugs/Morphine.xml" />
+    <File Path="../1.7/Defs/Drugs/SuperVaccine.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Meals.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Production.xml" />
+  </Folder>
 </Solution>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- <ThingDef ParentName="BuildingBase">
 		<defName>CIWSPodLauncher</defName>
@@ -109,8 +109,4 @@
 	</ThingDef> -->
   <CIWSMoisturePump.label>大功率排水泵</CIWSMoisturePump.label>
   <CIWSMoisturePump.description>大功率排水泵。</CIWSMoisturePump.description>
-  <CIWSMoisturePump_Blueprint.label>大功率排水泵 (blueprint)</CIWSMoisturePump_Blueprint.label>
-  <CIWSMoisturePump_Blueprint_Install.label>大功率排水泵 (blueprint)</CIWSMoisturePump_Blueprint_Install.label>
-  <CIWSMoisturePump_Frame.label>大功率排水泵 (building)</CIWSMoisturePump_Frame.label>
-  <CIWSMoisturePump_Frame.description>大功率排水泵。</CIWSMoisturePump_Frame.description>
 </LanguageData>
